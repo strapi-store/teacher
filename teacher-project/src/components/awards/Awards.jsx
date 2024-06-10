@@ -1,7 +1,7 @@
 import {getPhotosUrl} from "../../utils";
 import {Carousel} from "../carousel/Carousel";
 
-const awards = getPhotosUrl(13, '/public/Награды/', 'jpeg');
+const awards = getPhotosUrl(13, '/Награды/', 'jpeg');
 
 
 const settings = {

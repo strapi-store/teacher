@@ -4,12 +4,12 @@ import {Carousel} from "../carousel/Carousel";
 
 export function MethodologicalActivity() {
 
-    const speechesNPKSeminars = getPhotosUrl(5, '/public/Методическая деятельность/Выступления_НПК_семинары/', 'jpeg');
-    const openLessons = getPhotosUrl(3, '/public/Методическая деятельность/Открытые мероприятия/', 'jpeg');
-    const experience = getPhotosUrl(4, '/public/Методическая деятельность/Представление пед.опыт на сайтах/', 'jpeg');
-    const profContest = getPhotosUrl(4, '/public/Методическая деятельность/Проф.конкурсы/', 'jpeg');
-    const publications = getPhotosUrl(3, '/public/Методическая деятельность/Публикации/', 'jpeg');
-    const pck = getPhotosUrl(3, '/public/Методическая деятельность/Руководство ПЦК/', 'jpeg');
+    const speechesNPKSeminars = getPhotosUrl(5, '/Методическая деятельность/Выступления_НПК_семинары/', 'jpeg');
+    const openLessons = getPhotosUrl(3, '/Методическая деятельность/Открытые мероприятия/', 'jpeg');
+    const experience = getPhotosUrl(4, '/Методическая деятельность/Представление пед.опыт на сайтах/', 'jpeg');
+    const profContest = getPhotosUrl(4, '/Методическая деятельность/Проф.конкурсы/', 'jpeg');
+    const publications = getPhotosUrl(3, '/Методическая деятельность/Публикации/', 'jpeg');
+    const pck = getPhotosUrl(3, '/Методическая деятельность/Руководство ПЦК/', 'jpeg');
 
 
 
@@ -84,8 +84,8 @@ export function MethodologicalActivity() {
                     </div>
                 </Slider>
                 <div className="flex">
-                    <img className="w-1/2" src="/public/Методическая деятельность/Участие в деятельности экспертных комиссий, экспериментальная площадка/1.jpeg" alt="" />
-                    <img className="w-1/2" src="/public/Методическая деятельность/Участие в деятельности экспертных комиссий, экспериментальная площадка/2.jpeg" alt="" />
+                    <img className="w-1/2" src="/Методическая деятельность/Участие в деятельности экспертных комиссий, экспериментальная площадка/1.jpeg" alt="" />
+                    <img className="w-1/2" src="/Методическая деятельность/Участие в деятельности экспертных комиссий, экспериментальная площадка/2.jpeg" alt="" />
                 </div>
             </div>
 

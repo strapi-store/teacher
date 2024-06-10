@@ -4,9 +4,9 @@ import {Carousel} from "../carousel/Carousel";
 import {getPhotosUrl} from "../../utils";
 
 
-const contestPhotos = getPhotosUrl(26, '/public/Развитие обучающихся/Конкурсы/', 'jpeg');
-const conferencePhotos = getPhotosUrl(5, '/public/Развитие обучающихся/НПКонференции/', 'jpeg');
-const olympiadPhotos = getPhotosUrl(30, '/public/Развитие обучающихся/Олимпиады/', 'jpeg');
+const contestPhotos = getPhotosUrl(26, '/Развитие обучающихся/Конкурсы/', 'jpeg');
+const conferencePhotos = getPhotosUrl(5, '/Развитие обучающихся/НПКонференции/', 'jpeg');
+const olympiadPhotos = getPhotosUrl(30, '/Развитие обучающихся/Олимпиады/', 'jpeg');
 
 
 const settings = {
